@@ -1,6 +1,13 @@
 {
-    "program": "rps.aleo",
+    "program": "rps001.aleo",
     "version": "0.0.0",
     "description": "",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies":[
+        {
+            "name":"token.aleo",
+            "location":"local",
+            "path":"token"
+        }
+    ]
 }
